@@ -1,3 +1,12 @@
+'''
+Class Passenger With Parameters :- id,name,gender,miles. (line no. 1,2)
+in-class passenger defines a method calculateDiscount which will calculate the discount and return. (line no. 7)
+
+Create another class Organization that will take a list of all objects passed. (line no. 10,11)
+in that class define a method calcDisc which will receive the id of the passenger and will calculate the discount if Id is found. (line no.14)
+
+create an object of class Organization and pass ID and print result(line no. 34)
+'''
 class Passenger:
     def __init__(self,id,name,gender,miles):
         self.id=id
